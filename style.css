@@ -94,7 +94,91 @@ body {
     color: var(--grey);
 }
 
+.ecscurs {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background-color: var(--light-grey);
+    border-radius: 7px;
+}
 
+.head-ecscurs {
+    background-image: url('images/calendar__image.png');
+    background-size: 360px;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 360px;
+    display: flex;
+
+    p {
+        display: flex;
+        padding: 10px;
+        color: white;
+        align-self: flex-end;
+    }
+}
+
+.calendar {
+    display: flex;
+}
+
+.panel {
+    height: 190px;
+
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-size: 20px;
+        margin: 10px;
+    }
+}
+
+.arrows {
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    /* align-self: flex-end; */
+    height: 140px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
+    button {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 5px;
+        color: white;
+        font-size: 16px;
+        padding: 5px;
+        background-color: var(--green);
+    }
+}
+
+.dais {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    grid-template-rows: repeat(5, 30px);
+    gap: 5px;
+}
+
+.day {
+    cursor: pointer;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+}
+
+.event {
+    background-color: var(--green);
+}
 
 .anonses {
     display: flex;
