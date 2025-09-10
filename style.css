@@ -8,7 +8,7 @@
     align-items: center;
     margin-bottom: 20px;
 }
-.poster {
+.poster-block .poster {
     display: flex;
     background: white;
     border-radius: 8px;
@@ -17,8 +17,20 @@
     padding: 15px;
     position: relative;
 }
+.poster-block .head h3 {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
-.date {
+.poster-block .head h3:nth-of-type(2) {
+    color: #888;
+    font-size: 20px;
+    
+}
+
+.poster-block .date {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,21 +43,21 @@
     color: rgba(128, 128, 128, 0.644);
 }
 
-.date p {
+.poster-block .date p {
     margin: 0;
     line-height: 1.2;
 }
 
-.date p:first-child {
+.poster-block .date p:first-child {
     font-size: 50px;
 }
 
-.date p:last-child {
+.poster-block .date p:last-child {
     font-size: 25px;
     text-transform: lowercase;
 }
 
-.poster img {
+.poster-block .poster img {
     width: 300px;
     height: 150px;
     object-fit: cover;
@@ -54,35 +66,35 @@
     flex-shrink: 0;
 }
 
-.poster-info {
+.poster-block .poster-info {
     flex-grow: 1;
 }
 
-.poster-info h3 {
+.poster-block .poster-info h3 {
     margin: 0 0 8px 0;
     font-size: 28px;
 }
 
-.poster-info > p {
+.poster-block .poster-info > p {
     margin: 0 0 12px 0;
     color: #666;
     font-size: 14px;
 }
 
-.info {
+.poster-block .info {
     display: flex;
     gap: 25px;
     margin-top: 60px;
 }
 
-.info p {
+.poster-block .info p {
     margin: 0;
     font-size: 14px;
     display: flex;
     align-items: center;
 }
 
-button {
+.poster-block button {
             background: #05B093;
             color: white;
             border: none;
