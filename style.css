@@ -82,3 +82,14 @@
     align-items: center;
 }
 
+button {
+            background: #05B093;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 14px;
+            align-self: center;
+            flex-shrink: 0;
+            margin-left: 15px;
+        }
