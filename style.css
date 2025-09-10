@@ -1,6 +1,8 @@
 :root {
     --green: #05B093;
-    --grey: rgba(170, 170, 170, 1);
+    --grey: rgba(140, 140, 140, 1);
+    --light-grey: rgba(220, 220, 220, 1);
+    --super-light-grey: rgba(240, 240, 240, 1);
 }
 
 * {
@@ -9,6 +11,10 @@
     text-decoration: none;
     color: black;
     border: none;
+}
+
+body {
+    background-color: var(--super-light-grey);
 }
 
 .text-d {
@@ -24,21 +30,22 @@
     justify-items: center;
     justify-self: center;
     padding: 20px 0px;
-    width: 80%;
-}
-
-.news-content{
-    display: flex;
-
+    width: 72.5%;
 }
 
 .block-title {
-    width: 200px;
+    width: 20vw;
     display: flex;
     justify-self: center;
+    justify-items: center;
     text-align: left;
     font-size: 26px;
     padding: 20px 30px;
+}
+
+.news-content {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .news-cards {
@@ -47,13 +54,13 @@
     justify-items: left;
     padding: 15px 0px;
     display: grid;
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(2, 55%);
     justify-content: center;
     gap: 10px;
 }
 
 .news-card {
-    width: 250px;
+    /* width: 50%; */
     height: 250px;
     /* margin: 0px 10px; */
     padding: 5px;
@@ -64,12 +71,12 @@
     justify-content: center;
 
     img {
-        width: 200px;
+        width: 20vw;
     }
 }
 
 .news-card-title {
-    width: 200px;
+    width: 20vw;
     display: flex;
     justify-self: center;
     padding: 5px 0px;
@@ -78,7 +85,7 @@
 }
 
 .news-card-description {
-    width: 200px;
+    width: 20vw;
     display: flex;
     justify-self: center;
     padding: 5px 0px;
@@ -95,23 +102,25 @@
     justify-content: center;
     justify-items: center;
     justify-self: center;
+    width: 72.5%;
     padding: 20px 0px;
 }
 
 .anonses-cards {
-    padding: 15px 0px;
+    padding: 15px 25px;
     display: flex;
-    justify-content: center;
+    width: 100%;
+    /* justify-content: space-between; */
 }
 
 .anonses-card {
     display: flex;
-    width: 200px;
+    width: 20vw;
     height: 50px;
-    margin: 0px 10px;
+    margin: 0px 0px;
     padding: 5px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
 .anonses-data {
@@ -132,7 +141,8 @@
 .anonses-title {
     text-align: center;
     align-content: center;
-    font-size: 10px;
+    font-size: 12px;
+    padding: 0px 30px;
 }
 
 footer {
