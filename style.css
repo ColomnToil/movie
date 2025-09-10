@@ -1,0 +1,10 @@
+.poster-block {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.poster-block .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
