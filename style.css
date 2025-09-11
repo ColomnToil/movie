@@ -18,6 +18,28 @@
     padding: 20px 0px;
 }
 
+.anonses-header {
+    display: flex;
+
+}
+
+.all-anonses {
+    display: flex;
+
+    a {
+        display: flex;
+        justify-content: flex-end;
+        justify-items: flex-end;
+        justify-self: flex-end;
+        width: 40vw;
+
+        img {
+            padding: 0px 10px;
+            width: 26px;
+        }
+    }
+}
+
 .anonses-cards {
     padding: 15px 25px;
     display: flex;
