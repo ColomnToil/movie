@@ -30,6 +30,16 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
+nav ul li::before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  margin-right: 10px;
+  transform: translate(0, -50%) scaleY(1.1) rotate(45deg);
+}
 nav ul li a {
     color: #fff;
     text-decoration: none;
