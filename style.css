@@ -753,3 +753,9 @@ footer {
     border-radius: 16px;
     overflow: hidden;
 }
+.poster-block .head-posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
