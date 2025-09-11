@@ -1,0 +1,18 @@
+.slider {
+    padding: 16px 20px;
+}
+
+.events-block {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 24px;
+}
+
+.events-main {
+    background: #e6e6e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
