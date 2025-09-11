@@ -216,3 +216,168 @@ nav ul li a:hover {
             flex-shrink: 0;
             margin-left: 15px;
         }
+:root {
+    --green: #05B093;
+    --grey: rgba(140, 140, 140, 1);
+    --light-grey: rgba(220, 220, 220, 1);
+    --super-light-grey: rgba(240, 240, 240, 1);
+}
+
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 20px 0px;
+    width: 72.5%;
+}
+
+.block-title {
+    width: 20vw;
+    display: flex;
+    justify-self: center;
+    justify-items: center;
+    text-align: left;
+    font-size: 26px;
+    padding: 20px 30px;
+}
+
+.news-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-cards {
+    justify-content: left;
+    justify-self: left;
+    justify-items: left;
+    padding: 15px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 55%);
+    justify-content: center;
+    gap: 10px;
+}
+
+.news-card {
+    /* width: 50%; */
+    height: 250px;
+    /* margin: 0px 10px; */
+    padding: 5px;
+}
+
+.news-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 20vw;
+    }
+}
+
+.news-card-title {
+    width: 20vw;
+    display: flex;
+    justify-self: center;
+    padding: 5px 0px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.news-card-description {
+    width: 20vw;
+    display: flex;
+    justify-self: center;
+    padding: 5px 0px;
+    text-align: left;
+    font-size: 12px;
+    color: var(--grey);
+}
+
+.ecscurs {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background-color: var(--light-grey);
+    border-radius: 7px;
+}
+
+.head-ecscurs {
+    background-image: url('images/calendar__image.jpg');
+    background-size: 360px;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 360px;
+    display: flex;
+
+    p {
+        display: flex;
+        padding: 10px;
+        color: white;
+        align-self: flex-end;
+    }
+}
+
+.calendar {
+    display: flex;
+}
+
+.panel {
+    height: 190px;
+
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-size: 20px;
+        margin: 10px;
+    }
+}
+
+.arrows {
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    /* align-self: flex-end; */
+    height: 140px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
+    button {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 5px;
+        color: white;
+        font-size: 16px;
+        padding: 5px;
+        background-color: var(--green);
+    }
+}
+
+.dais {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    grid-template-rows: repeat(5, 30px);
+    gap: 5px;
+}
+
+.day {
+    cursor: pointer;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+}
+
+.event {
+    background-color: var(--green);
+}
