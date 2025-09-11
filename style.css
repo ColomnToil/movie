@@ -5,6 +5,13 @@
     --super-light-grey: rgba(240, 240, 240, 1);
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+}
+
 body {
     margin: 0;
 }
